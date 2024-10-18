@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TocnoVrijeme", "TocnoVrijeme\TocnoVrijeme.csproj", "{083EBBC0-C9DE-45D4-B389-884DC552BB12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TocnoVrijeme", "TocnoVrijeme\TocnoVrijeme.csproj", "{083EBBC0-C9DE-45D4-B389-884DC552BB12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inicijali", "Inicijali\Inicijali.csproj", "{2DB1456B-F2B5-4226-94BF-0CE2E9DCD19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inicijali", "Inicijali\Inicijali.csproj", "{2DB1456B-F2B5-4226-94BF-0CE2E9DCD19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacunskeOperacije", "RacunskeOperacije\RacunskeOperacije.csproj", "{B3936F51-AC0C-4C5B-8C4A-30C3AADCE9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RacunskeOperacije", "RacunskeOperacije\RacunskeOperacije.csproj", "{B3936F51-AC0C-4C5B-8C4A-30C3AADCE9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProsjekOcjena", "ProsjekOcjena\ProsjekOcjena.csproj", "{F7C2701A-6046-4C53-87ED-794B91E3E21E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProsjekOcjena_TryParse", "ProsjekOcjena_TryParse\ProsjekOcjena_TryParse.csproj", "{4AF5F353-7A05-42D1-B77A-25834841D72F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{B3936F51-AC0C-4C5B-8C4A-30C3AADCE9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3936F51-AC0C-4C5B-8C4A-30C3AADCE9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3936F51-AC0C-4C5B-8C4A-30C3AADCE9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C2701A-6046-4C53-87ED-794B91E3E21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C2701A-6046-4C53-87ED-794B91E3E21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C2701A-6046-4C53-87ED-794B91E3E21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C2701A-6046-4C53-87ED-794B91E3E21E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF5F353-7A05-42D1-B77A-25834841D72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF5F353-7A05-42D1-B77A-25834841D72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF5F353-7A05-42D1-B77A-25834841D72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF5F353-7A05-42D1-B77A-25834841D72F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
