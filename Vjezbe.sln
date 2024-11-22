@@ -21,9 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji", "Djelitelji\Dj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji_dopetlja", "Djelitelji_dopetlja\Djelitelji_dopetlja.csproj", "{50058DFE-9C86-40CD-B1F2-0577A4DD983C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{A736CE87-B41B-4D8A-AA8F-93C2E799C880}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{A736CE87-B41B-4D8A-AA8F-93C2E799C880}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{B2113FE3-B73F-442C-A0B1-9E7C37237B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{B2113FE3-B73F-442C-A0B1-9E7C37237B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brojevi", "Brojevi\Brojevi.csproj", "{1FEB0CBD-627A-4422-B7B8-A719C740C4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaRijeci", "ListaRijeci\ListaRijeci.csproj", "{1B49B37E-7D4F-4348-943A-2553612BCD4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{B2113FE3-B73F-442C-A0B1-9E7C37237B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2113FE3-B73F-442C-A0B1-9E7C37237B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2113FE3-B73F-442C-A0B1-9E7C37237B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEB0CBD-627A-4422-B7B8-A719C740C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEB0CBD-627A-4422-B7B8-A719C740C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEB0CBD-627A-4422-B7B8-A719C740C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEB0CBD-627A-4422-B7B8-A719C740C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B49B37E-7D4F-4348-943A-2553612BCD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B49B37E-7D4F-4348-943A-2553612BCD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B49B37E-7D4F-4348-943A-2553612BCD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B49B37E-7D4F-4348-943A-2553612BCD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
