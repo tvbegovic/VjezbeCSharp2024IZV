@@ -1,0 +1,42 @@
+"Prince of Persia: The Lost Crown";"Akcijska platformerska igra u kojoj igrači kreću u potragu za otetim princom.";Akcijska;2024-01-18;59,99;Ubisoft
+"Another Code: Recollection";"Remasterirana kolekcija klasičnih avanturističkih igara s poboljšanom grafikom i novim sadržajem.";Avantura;2024-01-19;49,99;Nintendo
+"Tekken 8";"Najnovije izdanje poznate borbene igre s novim likovima i mehanikama.";Akcijska;2024-01-26;69,99;Bandai Namco Entertainment
+"Like a Dragon: Infinite Wealth";"RPG koji prati putovanje novog protagonista u serijalu 'Like a Dragon'.";RPG;2024-01-26;59,99;SEGA
+"Granblue Fantasy: Relink";"Akcijski RPG smješten u svemir Granblue Fantasy s načinima za jednog i više igrača.";RPG;2024-02-01;59,99;Cygames
+"Persona 3 Reload";"Remake klasičnog JRPG-a s ažuriranom grafikom i poboljšanjima u igrivosti.";RPG;2024-02-02;59,99;Atlus
+"Suicide Squad: Kill the Justice League";"Akcijsko-avanturistička igra u kojoj igrači preuzimaju kontrolu nad Suicide Squadom.";Akcijska;2024-02-02;69,99;Warner Bros. Interactive Entertainment
+"Helldivers 2";"Kooperativna pucačina u kojoj igrači štite Super Zemlju od vanzemaljskih prijetnji.";Akcijska;2024-02-08;39,99;Arrowhead Game Studios
+"Banishers: Ghosts of New Eden";"Akcijski RPG u kojem igrači love i protjeruju duhove u mističnom svijetu.";RPG;2024-02-13;59,99;Focus Entertainment
+"Tomb Raider 1-3 Remastered";"Remasterirana kolekcija prve tri Tomb Raider igre s poboljšanom grafikom.";Avantura;2024-02-14;49,99;Crystal Dynamics
+"Skull and Bones";"Igra pomorskih bitaka u kojoj igrači postaju kapetani pirata.";Akcijska;2024-02-16;59,99;Ubisoft
+"Mario vs. Donkey Kong";"Puzzle-platformska igra u kojoj Mario mora vratiti ukradene igračke od Donkey Konga.";Puzzle;2024-02-16;49,99;Nintendo
+"Last Epoch";"Akcijski RPG s mehanikama putovanja kroz vrijeme i dubokom prilagodbom likova.";RPG;2024-02-21;39,99;Eleventh Hour Games
+"Pacific Drive";"Prva osoba vozačka survival igra smještena u postapokaliptični sjeverozapad Pacifika.";Simulacija;2024-02-22;29,99;Ironwood Studios
+"Nightingale";"Survival crafting igra u viktorijanskom gaslamp fantasy univerzumu.";Simulacija;2024-02-22;39,99;Inflexion Games
+"Brothers: A Tale of Two Sons Remake";"Remake emotivne avanture s poboljšanom grafikom.";Avantura;2024-02-28;29,99;505 Games
+"Final Fantasy VII Rebirth";"Drugi dio Final Fantasy VII Remake projekta, nastavlja epsku priču.";RPG;2024-02-29;69,99;Square Enix
+"The Outlast Trials";"Survival horor igra u kojoj igrači prolaze eksperimente u hladnoratovskom okruženju.";Akcijska;2024-03-05;29,99;Red Barrels
+"Snufkin: Melody of Moominvalley";"Avanturistička igra gdje igrači istražuju dolinu Moomin kako bi vratili harmoniju.";Avantura;2024-03-07;24,99;Hyper Games
+"Unicorn Overlord";"Taktički RPG koji kombinira istraživanje svijeta i strateške bitke.";RPG;2024-03-08;59,99;Atlus
+"Lightyear Frontier";"Farma-avantura smještena na vanzemaljskom planetu s mehanizmima za istraživanje.";Simulacija;2024-03-19;29,99;Frame Break
+"Alone in the Dark";"Reimaginacija klasične survival horor igre, smještene u 1920-e.";Avantura;2024-03-20;59,99;THQ Nordic
+"Dragon's Dogma 2";"Nastavak akcijskog RPG-a s velikim otvorenim svijetom i dinamičnim borbama.";RPG;2024-03-22;69,99;Capcom
+"Rise of the Ronin";"Otvoreni svijet akcijski RPG smješten u kasni 19. stoljeće u Japanu.";RPG;2024-03-22;69,99;Team Ninja
+"Princess Peach: Showtime!";"Avanturistička igra u kojoj princeza Peach preuzima glavnu ulogu.";Avantura;2024-03-22;59,99;Nintendo
+"South Park: Snow Day!";"3D kooperativna multiplayer igra smještena u svemir South Parka tijekom snježnog dana.";Akcijska;2024-03-26;49,99;THQ Nordic
+"Pepper Grinder";"2D akcijsko-avanturistička igra u kojoj igrači upravljaju lovcem na blago s bušilicom.";Akcijska;2024-03-28;19,99;Devolver Digital
+"Botany Manor";"Puzzle igra u kojoj igrači istražuju povijesni dvorac i uzgajaju rijetke biljke.";Puzzle;2024-04-09;24,99;Balloon Studios
+"Another Crab's Treasure";"Soulslike avantura u kojoj igrači upravljaju pustinjačkim rakom.";Avantura;2024-04-23;29,99;Aggro Crab
+"Eiyuden Chronicle: Hundred Heroes";"JRPG s velikim brojem likova i klasičnim turn-based borbama.";RPG;2024-04-23;49,99;505 Games
+"Stellar Blade";"Akcijska igra smještena u distopijsku budućnost s intenzivnim borbama.";Akcijska;2024-04-26;59,99;Shift Up
+"Sea of Thieves";"Otvoreni svijet piratske avanture gdje igrači plove, bore se i istražuju.";Avantura;2024-04-30;39,99;Rare
+"Endless Ocean: Luminous";"Igra podvodnog istraživanja gdje igrači otkrivaju morski svijet i drevne ruševine.";Simulacija;2024-05-02;49,99;Arika
+"Hades II";"Roguelike avantura u kojoj igrači prolaze kroz Podzemlje.";Avantura;2024-05-06;29,99;Supergiant Games
+"Prison Architect 2";"Simulacijska igra gdje igrači dizajniraju i upravljaju zatvorom.";Simulacija;2024-05-07;29,99;Paradox Interactive
+"Animal Well";"Istraživačka igra s pixel-art grafikom i misterioznim svijetom.";Puzzle;2024-05-08;19,99;Shared Memory
+"Metaphor: ReFantazio";"Fantazijski RPG od kreatora igre Persona.";RPG;2024-05-10;59,99;Atlus
+"The Lord of the Rings: Return to Moria";"Survival igra u kojoj igrači istražuju rudnike Morije.";Simulacija;2024-05-15;39,99;Free Range Games
+"S.T.A.L.K.E.R. 2: Heart of Chernobyl";"Pucačina iz prvog lica smještena u Černobilsku zonu.";Akcijska;2024-05-17;69,99;GSC Game World
+"Payday 3";"Kooperativna pucačina u kojoj igrači organiziraju pljačke.";Akcijska;2024-05-19;49,99;Starbreeze Studios
+"Cities: Skylines II";"Napredna simulacija izgradnje grada gdje igrači stvaraju i upravljaju metropolama.";Simulacija;2024-05-22;49,99;Colossal Order
+"Sand Land";"Akcijski RPG temeljen na mangi Akire Toriyame.";RPG;2024-05-25;59,99;Bandai Namco Entertainment
