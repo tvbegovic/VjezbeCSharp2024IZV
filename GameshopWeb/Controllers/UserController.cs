@@ -1,7 +1,12 @@
 ﻿using Dapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace GameshopWeb.Controllers
 {
@@ -10,10 +15,12 @@ namespace GameshopWeb.Controllers
     public class UserController : ControllerBase
     {
         private readonly IConfiguration configuration;
+        private readonly JWTTokenConfig _jwtTokenConfig;
 
-        public UserController(IConfiguration configuration)
+        public UserController(IConfiguration configuration, JWTTokenConfig jWTTokenConfig)
         {
             this.configuration = configuration;
+            _jwtTokenConfig = jWTTokenConfig;
         }
 
         [HttpPost("register")]
@@ -55,7 +62,44 @@ namespace GameshopWeb.Controllers
                 LoginResult result = new LoginResult();
                 result.User = user;
                 result.User.Password = null;
+                result.AccessToken = GenerateToken(email, "user");
                 return Ok(result);
+            }
+        }
+        private string GenerateToken(string email, string role)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var keyBytes = Encoding.UTF8.GetBytes(_jwtTokenConfig.Secret);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+            new Claim(ClaimTypes.Name, email),
+            new Claim(ClaimTypes.Role, role)
+        }),
+                Expires = DateTime.UtcNow.AddMinutes(_jwtTokenConfig.AccessTokenExpiration),
+                Issuer = _jwtTokenConfig.Issuer,
+                Audience = _jwtTokenConfig.Audience,
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(keyBytes),
+                    SecurityAlgorithms.HmacSha256Signature
+                )
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
+
+        [HttpPut("")]
+        [Authorize]
+        public void UpdateUser(User user)
+        {
+            string sql = @"UPDATE User SET  firstname=@firstname,lastname=@lastname,address=@address,City=@City
+            WHERE id = @id";
+            using (var connection = new SqlConnection(configuration.GetConnectionString("connString")))
+            {
+                connection.Execute(sql, user);
             }
         }
     }
